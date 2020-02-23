@@ -2,6 +2,29 @@
 # Copyright 2018 Twitter, Inc.
 # Licensed under the MIT License
 # https://opensource.org/licenses/MIT
+
+labs_format_superset_keys = {
+    'created_at',
+    'id',
+    'text',
+    'author_id',
+    'referenced_tweets id',
+    'referenced_tweets type',
+    'entities hashtags',
+    'entities mentions',
+    'entities cashtags',
+    'entities urls',
+    'attachments',
+    'includes',
+    'geo'
+}
+
+
+labs_format_minimum_set_keys = {
+}
+
+
+
 original_format_superset_keys = {
     'contributors',
     'coordinates',
